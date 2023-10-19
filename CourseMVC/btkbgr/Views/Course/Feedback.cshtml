@@ -1,0 +1,25 @@
+@model Student
+
+<div>
+
+    <h3 class="display -4"> Tebrikler ! @Model.İsim @Model.Soyisim </h3>
+    <p class="lead">Kaydınız başarı ile alındı.<mark>(Kabul Edildi)</mark></p>
+    <hr />
+    <blockquote class="blockquote">
+         @Model.Kursİsmi isimli kursa kaydoldunuz.
+
+    </blockquote>
+
+    <p class="text-muted"> Tarih & Saat ( @Model.Zaman ) </p>
+
+    <p class="lead">İlginize Teşekkürler ! </p>
+
+
+    <div class="btn-group">
+
+        <a class="btn btn-outline-success" asp-action="Index">Başvuranlar</a>
+        <a class="btn btn-success" asp-action="Index" asp-controller="Home">Anasayfa</a>
+
+    </div>
+
+</div>
