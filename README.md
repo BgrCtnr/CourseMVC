@@ -1,2 +1,2 @@
 # CourseMVC
-MVC ile geliştirilmiş bir web uygulamasıdır. Eğitim kursuna kayıt olmak amacı ile kullanılır.
+Asp.Net MVC ile geliştirilmiş web için tasarlanan bir online kurs kayıt programıdır. 
